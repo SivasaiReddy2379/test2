@@ -1,11 +1,7 @@
-FROM tomcat:9.0
+FROM python:3.10-slim
 
-# Remove default apps
-RUN rm -rf /usr/local/tomcat/webapps/*
+WORKDIR /app
 
-# Copy your JSP files directly
-COPY . /usr/local/tomcat/webapps/ROOT
+COPY sample.py .
 
-EXPOSE 8080
-
-CMD ["catalina.sh", "run"]
+CMD ["python", "sample.py"]
