@@ -574,7 +574,7 @@
                 <p>Discover the latest trends in fashion, technology and accessories — curated just for you. Enjoy limited-time deals and free shipping on selected items.</p>
                 <div>
                     <button class="btn btn-primary" id="shopNow">Shop Now <em class="fas fa-arrow-right"></em></button>
-                    <button class="btn btn-ghost" id="exploreDeals">Explore Deals</button>
+                    <button class="btn btn-ghost" id="exploreDeals">Explore sales Deals</button>
                 </div>
             </div>
         </section>
@@ -583,7 +583,7 @@
         <section class="section container" aria-labelledby="cat-title">
             <div class="title" id="cat-title">
                 <h2 class="section-title">Shop by Category</h2>
-                <p class="muted">Browse through our wide range of products across curated categories.</p>
+                <p class="muted">Browse through our wide range of products.</p>
             </div>
 
             <div class="grid categories" id="categoriesGrid" aria-live="polite"></div>
